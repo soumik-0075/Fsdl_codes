@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> -->
+</head>
+<body>
+
+<h2 id="title">Student Registration Form</h2>
+
+<img id="myImage" src="logo.png" width="150">
+
+<form id="myForm">
+    <input type="text" id="username" placeholder="Username"><br>
+    <span class="error" id="userError"></span><br>
+
+    <input type="text" id="email" placeholder="Email"><br>
+    <span class="error" id="emailError"></span><br>
+
+    <input type="text" id="phone" placeholder="Phone Number"><br>
+    <span class="error" id="phoneError"></span><br>
+
+    <input type="password" id="password" placeholder="Password"><br>
+    <span class="error" id="passError"></span><br>
+
+    <input type="password" id="confirmPassword" placeholder="Confirm Password"><br>
+    <span class="error" id="confirmError"></span><br>
+
+    <button type="button" id="submitBtn">Register</button>
+    <button type="button" id="changeImgBtn">Change Image</button>
+</form>
+
+<div id="result"></div>
+<div id="outputCard"></div>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
