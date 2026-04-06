@@ -1,0 +1,22 @@
+/* App.css - Minimal styles to avoid conflicts with index.css */
+.app-layout {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  gap: 2.5rem;
+}
+
+@media (max-width: 968px) {
+  .app-layout {
+    grid-template-columns: 1fr;
+  }
+}
+
+.form-section {
+  position: sticky;
+  top: 2rem;
+  height: fit-content;
+}
+
+.list-section h2 {
+  margin-bottom: 2rem;
+}
